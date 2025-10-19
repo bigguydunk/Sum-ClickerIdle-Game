@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mystic Clicker - Theory of Magic</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="game-wrapper">
+      <!-- Left Side: Clicker & Stats -->
+      <div class="left-panel">
+  <h1>Mystic Clicker</h1>
+        
+        <div class="stats-container">
+          <div class="stat-box">
+            <div class="stat-label">Mana</div>
+            <div class="stat-value" id="expValue">0</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Clicks</div>
+            <div class="stat-value" id="clickValue">0</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Per Click</div>
+            <div class="stat-value" id="expPerClickValue">1</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Per Second</div>
+            <div class="stat-value" id="expPerSecond">0</div>
+          </div>
+        </div>
+
+        <div class="clicker-section">
+          <button id="clickBtn" class="click-button">
+            <span>Cast Spell</span>
+          </button>
+        </div>
+
+        <div class="actions-section">
+          <button id="saveBtn" class="save-button">Save</button>
+          <button id="loadBtn" class="load-button">Load</button>
+          <button id="resetBtn" class="reset-button">Reset</button>
+        </div>
+      </div>
+
+      <!-- Right Side: Shop -->
+      <div class="right-panel">
+  <h2>Magic Shop</h2>
+        <div class="shop-container" id="shopContainer">
+          <!-- Shop items will be dynamically generated here -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
